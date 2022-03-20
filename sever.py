@@ -19,7 +19,7 @@ def solve(a,b,c):
             return f"x={-b/(2*a)}"
         else:
             return f"x1= {(-b+delta**0.5)/(2*a)}, x2= {(-b-delta**0.5)/(2*a)}"
-HOST="192.168.56.1"
+HOST="127.0.0.1"
 PORT=8080
 BUFFER_SIZE=30
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
