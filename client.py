@@ -1,6 +1,6 @@
 import socket
 BUFFER_SIZE=30
-HOST='192.168.56.1'
+HOST='127.0.0.1'
 PORT=8080
 conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 conn.connect((HOST,PORT))
