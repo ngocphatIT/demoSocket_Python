@@ -25,6 +25,7 @@ BUFFER_SIZE=30
 s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST,PORT))
 s.listen(1)
+print("Sever is listening")
 conn,addr=s.accept()
 try:
     while True:
